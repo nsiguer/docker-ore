@@ -1,0 +1,11 @@
+version: '2'
+services:
+  mn-ore:
+    image: ore
+    container_name: mn-ore
+    build:
+      context: .
+    ports:
+      - 4533:4533/tcp
+    volumes:
+      - $PWD/.galactrum:/root/.galactrum

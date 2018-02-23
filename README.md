@@ -1,2 +1,2 @@
 # docker-ore
-Container for Galactrum Masternode
+Container for Galactrum MasterNode
