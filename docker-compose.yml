@@ -6,6 +6,6 @@ services:
     build:
       context: .
     ports:
-      - 4533:4533/tcp
+      - 6270:6270/tcp
     volumes:
       - $PWD/.galactrum:/root/.galactrum
